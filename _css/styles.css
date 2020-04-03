@@ -25,3 +25,16 @@ main {
 main h2 {
   color: #333;
 }
+
+input {
+  width: 100%;
+  height: 40px;
+  color: red;
+  border: 1px solid #dcdce6;
+  padding: 0 24px;
+}
+
+ul {
+  margin: 0 auto;
+  list-style: none;
+}
