@@ -1,0 +1,47 @@
+.container {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.container button {
+  width: 20%;
+  background: #c91E00;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  border-top-left-radius: 0; 
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  transition: filter .3s;
+  height: 40px;
+}
+
+.container button:hover {
+  filter: brightness(110%);
+}
+
+.container ul {
+  width: 100%;
+  border: 1px solid #dcdce6;
+  margin: 40px auto;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+.container ul li a {
+  float: right;
+  color: #c91E00;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.container ul li {
+  color: #333;
+  padding: 20px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 16px;
+  margin: 10px auto;
+  border-bottom: 1px solid #dcdce6;
+}

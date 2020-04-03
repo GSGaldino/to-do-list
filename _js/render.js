@@ -1,5 +1,5 @@
-const inputElement = document.querySelector("#container input")
-const buttonElement = document.querySelector("#container button")
+const inputElement = document.querySelector(".container input")
+const buttonElement = document.querySelector(".container button")
 const listElement = document.querySelector("#app ul")
 
 
