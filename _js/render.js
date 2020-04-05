@@ -2,12 +2,7 @@ const inputElement = document.querySelector(".container input")
 const buttonElement = document.querySelector(".container button")
 const listElement = document.querySelector("#app ul")
 
-
-const todos = [
-  'Varrer a sala',
-  'Estudar Javascript',
-  'Apertar o Botão'
-]
+const todos = JSON.parse(localStorage.getItem('todo_list')) || []
 
 function renderTodos(){
   listElement.innerHTML = '';
@@ -20,7 +15,6 @@ function renderTodos(){
 
     a.textContent = 'X'
 
-    a.setAttribute('href', '#')
     a.setAttribute('onclick', 'deleteTodo(' + pos + ')')
 
     li.textContent = todo

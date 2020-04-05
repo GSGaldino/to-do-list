@@ -37,11 +37,25 @@
 }
 
 .container ul li {
-  color: #333;
+  color: #888;
   padding: 20px;
   cursor: pointer;
   background: #fff;
-  border-radius: 16px;
-  margin: 10px auto;
+  margin: auto;
   border-bottom: 1px solid #dcdce6;
+  transition: filter .3s ease-out;
+}
+
+.container ul li:hover {
+  filter: brightness(95%);
+}
+
+.container ul li:first-child {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.container ul li:last-child {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
